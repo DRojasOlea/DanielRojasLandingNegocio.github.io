@@ -1,0 +1,5 @@
+body .navbar navbar-expand-lg navbar-light bg-light{
+    background: red;
+    flex-wrap: wrap;
+    flex: auto;
+}
