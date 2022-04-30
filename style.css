@@ -1,5 +1,45 @@
-body .navbar navbar-expand-lg navbar-light bg-light{
-    background: red;
-    flex-wrap: wrap;
-    flex: auto;
+.logo{
+    width: 60px;
+    height: 60px;
 }
+
+.container-fluid{
+    font-size: larger;
+}
+
+.jumbotron{
+    background-image: url(./images/portada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: justify;
+    font-size: x-large;
+    font-family: sans-serif;
+    
+
+}
+.cuerpo-principal{
+    display: grid;
+    padding: 10px;
+    text-align: justify;
+}
+.formulario-correo{
+    justify-content: center;
+}
+.mb-3{
+    padding: 40px;
+}
+.blog{
+    background: #fd96e2;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.card{
+    justify-content: center;
+}
+.adicional{
+    background: #96fdb5;
+    display: flex;
+}
+
