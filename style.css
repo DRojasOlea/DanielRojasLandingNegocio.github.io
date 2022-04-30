@@ -15,24 +15,24 @@
     text-align: justify;
     font-size: x-large;
     font-family: sans-serif;
-    
-
+    flex-wrap: wrap;
 }
 .cuerpo-principal{
     display: grid;
     padding: 10px;
     text-align: justify;
+    flex-wrap: wrap;
 }
-
 .mb-3{
     padding: 40px;
     display: flexbox;
 }
-.blog{
+.container{
     background: #f8c6eb;
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    flex-wrap: wrap;
 }
 .card{
     text-align: justify;
@@ -50,9 +50,19 @@
     height: 350px;
     width: 5px;
 }
-.card-final{
+footer{
+    background: #36ced9;
     display: flex;
     padding: 20px;
-
+    justify-content: space-between;
 }
-
+@media (min-width:991px) and (max-width:1324px){
+    .adicional{
+        background: #feffb8;
+    }
+}
+@media (min-width:477px) and (max-width:990px){
+    .adicional{
+        background: #b8bfff;
+    }
+}
