@@ -23,23 +23,36 @@
     padding: 10px;
     text-align: justify;
 }
-.formulario-correo{
-    justify-content: center;
-}
+
 .mb-3{
     padding: 40px;
+    display: flexbox;
 }
 .blog{
-    background: #fd96e2;
+    background: #f8c6eb;
     display: flex;
     justify-content: space-between;
     padding: 30px;
 }
 .card{
-    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    align-content: center;
 }
 .adicional{
-    background: #96fdb5;
+    background: #a7f0b3;
     display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img-top{
+    height: 350px;
+    width: 5px;
+}
+.card-final{
+    display: flex;
+    padding: 20px;
+
 }
 
